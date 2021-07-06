@@ -1,0 +1,59 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f6990e;
+  color: #fff;
+  margin-bottom: -100px;
+}
+
+.footer .footerheading {
+  font-size: 40px;
+  letter-spacing: 0.9px;
+  position: relative;
+}
+
+.footer .footerheading span {
+  font-size: 13px;
+  position: absolute;
+  top: 5px;
+}
+
+.footer .connect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.footer .connect p {
+  font-size: 13px;
+  margin-right: 17px;
+}
+
+.footer .connect .icon {
+  margin-right: 5px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.footer .connect .facebook {
+  color: #4267b2;
+}
+
+.footer .connect .twitter {
+  color: #1da1f2;
+}
+
+.footer .connect .instagram {
+  color: #e1306c;
+}
+
+.footer .connect .youtube {
+  color: #ff0000;
+}
