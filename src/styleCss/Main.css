@@ -51,6 +51,7 @@
   padding: 3px 30px;
   font-size: 50px;
   border-radius: 20px 0px 0px;
+  cursor: pointer;
 }
 
 .App {
@@ -59,21 +60,34 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 70px 200px;
-  
-
 }
 
-/* .container{
-  min-height: 100vh;
-  position: relative;
-} */
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+}
 
-.App .learnbtn{
-  background-color: #f6990e;
+.btn .learnbtn{
+  background-color: #f69900;
   color: #fff;
+  position: absolute;
+  bottom: 0;
+  padding: 15px 25px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
-.loader{
+.btn .learnbtn:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.loader {
   position: absolute;
   left: 45%;
   top: 45%;
@@ -89,12 +103,15 @@
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media screen and (max-width: 768px) {
-
   .App {
     display: flex;
     align-items: center;

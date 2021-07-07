@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import Ratings from './Ratings'
-import './Main.css';
+import './styleCss/Main.css';
 
 import { FoodListDataContext } from './FoodListDataContext'
 
@@ -35,10 +35,10 @@ class Main extends Component {
     )
     return (
       <div className='container'>
-        <div className="App"> 
-        {foodLists} 
+        <div className="App"> {foodLists} </div>
+        <div className='btn'>
+        <button className='learnbtn'>Learn More</button>
         </div>
-        {/* <button className='learnbtn'>learn more</button> */}
       </div>
     )
   }

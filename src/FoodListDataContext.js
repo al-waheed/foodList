@@ -6,7 +6,7 @@ export const FoodListDataContext = createContext()
 export class FoodListDataProvider extends Component {
   
 	state = {
-		foodList: []
+		foodList:[]
 	}
 
 	componentDidMount() {
